@@ -21,7 +21,9 @@
     <header class="header">
       <div class="header-background">
         <div class="container">
-          <p class="header-start">СТАРТ 29.02</p>
+          <p class="header-start">
+            СТАРТ <span id="dateElement"></span>.<span id="monthElement"></span>
+          </p>
           <h1 class="header-title">інтенсив <br /><span>Масштабуйся</span></h1>
           <p class="header-subtitle">
             Як збільшити продажі онлайн-курсів в 5-10 раз
@@ -378,7 +380,7 @@
               <ul class="prices-list list">
                 <li class="list-item">
                   <p class="list-item-title">вартість інтенсиву</p>
-                  <p class="prices-number"><span>7700грн</span> 990 грн</p>
+                  <p class="prices-number"><span>3900грн</span> 390 грн</p>
                   <div class="buy-button-container">
                     <button
                       class="buy-button"
@@ -408,7 +410,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="list-item">
+                <!-- <li class="list-item">
                   <p class="list-item-title">Інтенсив</p>
                   <p class="list-item-subtitle">
                     + персональна консультація по масштабуванню (40 хв)
@@ -442,7 +444,7 @@
                       <p class="prices-sale-number">-60%</p>
                     </div>
                   </div>
-                </li>
+                </li> -->
               </ul>
             </div>
             <div>
@@ -747,7 +749,7 @@
       </div>
     </div>
     <!-- premium -->
-    <div class="backdrop is-hidden" data-modal2>
+    <!-- <div class="backdrop is-hidden" data-modal2>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close2>
           <img
@@ -759,12 +761,13 @@
         </button>
         <div id="kwiga-widget-1708077560"></div>
       </div>
-    </div>
+    </div> -->
     <script type="module" src="./src/js/jquery-3.7.0.min.js"></script>
     <script type="module" src="./src/js/faq.js"></script>
     <script type="module" src="./src/js/scroll.js"></script>
     <script type="module" src="./src/js/timer.js"></script>
     <script type="module" src="./src/js/js-modal.js"></script>
+    <script type="module" src="./src/js/changeDate.js"></script>
 
     <!-- optimal scripts -->
     <script
@@ -772,9 +775,9 @@
       src="https://kwiga.com/build/js/kwiga-widget.js?t=1708077411&uuid=92ec5246-05d3-4e87-bc5d-e78a717d971e&producer=https://kwiga.com/"
     ></script>
     <!-- premium script -->
-    <script
+    <!-- <script
       type="module"
       src="https://kwiga.com/build/js/kwiga-widget.js?t=1708077560&uuid=2e85e838-836b-4bf0-b122-838df394d133&producer=https://kwiga.com/"
-    ></script>
+    ></script> -->
   </body>
 </html>
