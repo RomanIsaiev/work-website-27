@@ -744,7 +744,7 @@ p {
   letter-spacing: -0.84px;
   text-transform: uppercase;
 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .prices-list .prices-number span {
@@ -855,6 +855,34 @@ p {
   font-weight: 600;
   line-height: normal;
   text-transform: lowercase;
+}
+
+.form-text {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 15.6px */
+
+  margin-bottom: 30px;
+}
+
+.form-text span {
+  font-weight: 700;
+}
+
+.after-form-text {
+  margin-top: 20px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 15.6px */
 }
 
 /* timer-two */
