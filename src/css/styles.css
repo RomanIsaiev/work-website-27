@@ -97,7 +97,7 @@ p {
 }
 
 .header-pretitle {
-  color: #eb309e;
+  color: #ffd976;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
@@ -147,6 +147,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   grid-column-gap: 10px;
   grid-row-gap: 20px;
 
@@ -183,6 +184,8 @@ p {
   position: absolute;
   left: 50%;
   top: -12px;
+
+  transform: translate(-50%);
 }
 
 /* header-button */
@@ -915,12 +918,12 @@ p {
 .after-form-text {
   margin-top: 20px;
 
-  color: #ffd976;
+  color: #fff;
   text-align: center;
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 120%; /* 15.6px */
 }
 
